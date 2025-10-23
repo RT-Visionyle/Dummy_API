@@ -246,7 +246,7 @@ PRODUCTS = [
 ]
 
 
-500_Products = [
+Products_FiveHundred = [
   {"id": 1, "Part-Number": "GL-724589", "category": "Seal", "description": "Stainless steel filtration unit with reinforced gaskets", "life_cycle_status": "Active"},
   {"id": 2, "Part-Number": "ST-101456", "category": "Valve", "description": "Stainless steel filtration unit for high flow", "life_cycle_status": "Active"},
   {"id": 3, "Part-Number": "HY-288145", "category": "Sensor", "description": "Air compressor for process plant applications", "life_cycle_status": "Active"},
@@ -780,13 +780,14 @@ def get_product():
 
     category = request.args.get("category")
     if category:
-        filtered = [p for p in 500_Products if p["category"].lower() == category.lower()]
+        filtered = [p for p in Products_FiveHundred if p["category"].lower() == category.lower()]
         return jsonify(filtered), 200
 
-    return jsonify(500_Products), 200
+    return jsonify(Products_FiveHundred), 200
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
