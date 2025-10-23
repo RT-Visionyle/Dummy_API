@@ -106,7 +106,143 @@ PRODUCTS = [
     {"id": 97, "name": "Smart Thermometer", "category": "Home", "price": 39.99, "description": "Wi-Fi enabled indoor thermometer.", "life_cycle_status": "Active"},
     {"id": 98, "name": "Cordless Blower", "category": "Tools", "price": 69.99, "description": "Battery-powered blower for debris.", "life_cycle_status": "Active"},
     {"id": 99, "name": "Smart Headphones", "category": "Electronics", "price": 149.99, "description": "Noise-canceling headphones with AI.", "life_cycle_status": "In Development"},
-    {"id": 100, "name": "Portable Hammock", "category": "Outdoor", "price": 59.99, "description": "Quick-setup hammock for travel.", "life_cycle_status": "Active"}
+    {"id": 100, "name": "Portable Hammock", "category": "Outdoor", "price": 59.99, "description": "Quick-setup hammock for travel.", "life_cycle_status": "Active"},
+    {
+        "id": 1,
+        "name": "ST-240082",
+        "category": "Actuator",
+        "price": 45.60,
+        "description": "Reinforced pipe fitting with corrosion-resistant coating.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 2,
+        "name": "ST-240085",
+        "category": "Actuator",
+        "price": 48.90,
+        "description": "Heavy duty pipe fitting with pressure relief capability.",
+        "life_cycle_status": "Prototype"
+    },
+    {
+        "id": 3,
+        "name": "ST-240090",
+        "category": "Actuator",
+        "price": 47.25,
+        "description": "Pipe fitting for high-pressure industrial applications.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 4,
+        "name": "PE-254830",
+        "category": "Compressor",
+        "price": 6.75,
+        "description": "High temperature sealing ring made from silicone compound.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 5,
+        "name": "PE-254835",
+        "category": "Compressor",
+        "price": 7.20,
+        "description": "Sealing ring designed for thermal expansion resistance.",
+        "life_cycle_status": "Prototype"
+    },
+    {
+        "id": 6,
+        "name": "PE-254838",
+        "category": "Compressor",
+        "price": 6.95,
+        "description": "Durable sealing ring suitable for continuous heat cycles.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 7,
+        "name": "PE-735546",
+        "category": "Valve",
+        "price": 6.90,
+        "description": "High temperature sealing ring with fluorocarbon coating.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 8,
+        "name": "PE-735550",
+        "category": "Valve",
+        "price": 7.50,
+        "description": "Graphite-based sealing ring for extreme valve applications.",
+        "life_cycle_status": "Prototype"
+    },
+    {
+        "id": 9,
+        "name": "PE-735552",
+        "category": "Valve",
+        "price": 7.10,
+        "description": "Heat-resistant sealing ring with reinforced carbon layer.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 10,
+        "name": "PE-735555",
+        "category": "Valve",
+        "price": 7.80,
+        "description": "Valve sealing ring optimized for chemical resistance.",
+        "life_cycle_status": "Prototype"
+    },
+    {
+        "id": 11,
+        "name": "ME-65568",
+        "category": "Compressor",
+        "price": 2.35,
+        "description": "Electrical connector terminal with silver plating for enhanced conductivity.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 12,
+        "name": "ME-65570",
+        "category": "Compressor",
+        "price": 2.95,
+        "description": "Heavy-duty electrical connector terminal with heat-resistant housing.",
+        "life_cycle_status": "Prototype"
+    },
+    {
+        "id": 13,
+        "name": "ME-65572",
+        "category": "Compressor",
+        "price": 2.60,
+        "description": "Compact terminal optimized for low-loss power transfer.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 14,
+        "name": "GP-231",
+        "category": "Hydraulic",
+        "price": 125.80,
+        "description": "High pressure pump with stainless steel impeller.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 15,
+        "name": "GP-235",
+        "category": "Hydraulic",
+        "price": 138.40,
+        "description": "High pressure pump featuring variable flow control system.",
+        "life_cycle_status": "Prototype"
+    },
+    {
+        "id": 16,
+        "name": "GP-240",
+        "category": "Hydraulic",
+        "price": 132.75,
+        "description": "Compact high pressure pump for closed hydraulic circuits.",
+        "life_cycle_status": "Active"
+    },
+    {
+        "id": 17,
+        "name": "GP-245",
+        "category": "Hydraulic",
+        "price": 140.10,
+        "description": "High pressure pump with ceramic-coated pistons for extended life.",
+        "life_cycle_status": "Prototype"
+    }
 ]
 
 @app.route("/")
@@ -132,4 +268,5 @@ def get_products():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
