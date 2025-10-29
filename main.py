@@ -107,6 +107,9 @@ PRODUCTS = [
     {"id": 98, "name": "Cordless Blower", "category": "Tools", "price": 69.99, "description": "Battery-powered blower for debris.", "life_cycle_status": "Active"},
     {"id": 99, "name": "Smart Headphones", "category": "Electronics", "price": 149.99, "description": "Noise-canceling headphones with AI.", "life_cycle_status": "In Development"},
     {"id": 100, "name": "Portable Hammock", "category": "Outdoor", "price": 59.99, "description": "Quick-setup hammock for travel.", "life_cycle_status": "Active"},
+    {"id": 191, "name": "Electrolytic Capacitor 100µF 16V Radial", "category": "Electronic Components", "price": 0.30, "description": "100 µF aluminum electrolytic capacitor, 16 V rating, radial through-hole mount.", "life_cycle_status": "Active"},
+{"id": 192, "name": "Electrolytic Capacitor 100µF 50V Through-Hole", "category": "Electronic Components", "price": 0.45, "description": "100 µF aluminum electrolytic capacitor, 50 V rating, through-hole radial lead spacing.", "life_cycle_status": "Active"},
+{"id": 193, "name": "Electrolytic Capacitor 100µF 100V Axial/Pack", "category": "Electronic Components", "price": 0.60, "description": "100 µF aluminum electrolytic capacitor, 100 V rating, axial or bulk pack of multiples.", "life_cycle_status": "Active"},
     {
         "id": 1,
         "name": "ST-240082",
@@ -1525,6 +1528,7 @@ def get_partsapi():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
