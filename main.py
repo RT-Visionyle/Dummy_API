@@ -245,7 +245,37 @@ PRODUCTS = [
         "price": 140.10,
         "description": "High pressure pump with ceramic-coated pistons for extended life.",
         "life_cycle_status": "Prototype"
-    }
+    },
+    {"id": 1, "name": "UltraFlow HEPA Filter Module", "category": "Filters & Strainers", "price": 142.50, "description": "HEPA module with MERV 15 pleated glass fiber media, galvanized steel frame, and antimicrobial coating.", "life_cycle_status": "Active"},
+  {"id": 2, "name": "BioSafe Air Filtration Cartridge", "category": "Filters & Strainers", "price": 158.00, "description": "High-efficiency air filter with PTFE membrane, anodized aluminum casing, and replaceable gasket seal.", "life_cycle_status": "Active"},
+  {"id": 3, "name": "CleanZone MERV 17 Filter Pack", "category": "Filters & Strainers", "price": 165.90, "description": "Compact filtration module, multi-layer pleated media with stainless frame, rated for cleanroom use.", "life_cycle_status": "Active"},
+  {"id": 4, "name": "PureGuard HEPA Housing Unit", "category": "Filters & Strainers", "price": 178.25, "description": "Integrated filtration housing with MERV 16 media and silicone perimeter gasket for leak-free operation.", "life_cycle_status": "Active"},
+  {"id": 5, "name": "AirMax Pro Filtration Assembly", "category": "Filters & Strainers", "price": 190.40, "description": "HEPA pleated cartridge with aluminum frame and UV-resistant antimicrobial finish.", "life_cycle_status": "Active"},
+    {"id": 6, "name": "SmartFlow Motorized Damper", "category": "Pneumatic Components", "price": 210.00, "description": "Motorized airflow damper with stainless blades, position feedback sensor, and integrated control board.", "life_cycle_status": "Active"},
+  {"id": 7, "name": "AutoBalance Damper Assembly", "category": "Pneumatic Components", "price": 192.75, "description": "Adjustable balancing damper with aluminum blades, digital actuator, and safety override.", "life_cycle_status": "Active"},
+  {"id": 8, "name": "AirReg Proportional Damper", "category": "Pneumatic Components", "price": 185.50, "description": "Precision damper with electro-pneumatic actuator, flow sensing, and sealed bearings.", "life_cycle_status": "Active"},
+  {"id": 9, "name": "DuraFlow Air Control Damper", "category": "Pneumatic Components", "price": 202.30, "description": "Industrial-grade aluminum damper with high-torque motor actuator and integrated position indicator.", "life_cycle_status": "Active"},
+  {"id": 10, "name": "VentiMax Damper with Servo Drive", "category": "Pneumatic Components", "price": 225.60, "description": "Heavy-duty damper system featuring corrosion-resistant blades and a low-noise servo actuator.", "life_cycle_status": "Active"},
+    {"id": 11, "name": "EcoDrive Blower Motor", "category": "Electrical Parts", "price": 450.00, "description": "4kW, 415V, 3-phase motor with IP55 protection and cast-iron housing.", "life_cycle_status": "Active"},
+  {"id": 12, "name": "TorqueMaster Direct Motor", "category": "Electrical Parts", "price": 468.50, "description": "3.5kW, TEFC blower motor, high-efficiency copper winding, low-vibration design.", "life_cycle_status": "Active"},
+  {"id": 13, "name": "PowerFlow Industrial Motor", "category": "Electrical Parts", "price": 489.25, "description": "3.7kW, 400V, 3-phase motor, Class F insulation, dynamically balanced rotor.", "life_cycle_status": "Active"},
+  {"id": 14, "name": "AeroSpin Direct-Drive Motor", "category": "Electrical Parts", "price": 515.75, "description": "High-performance 4kW, 3-phase motor with sealed bearings and TEFC construction.", "life_cycle_status": "Active"},
+  {"id": 15, "name": "VoltEdge Blower Assembly", "category": "Electrical Parts", "price": 540.10, "description": "Energy-efficient motor, 3.7kW, 415V, low noise, ideal for HVAC and industrial use.", "life_cycle_status": "Active"},
+    {"id": 16, "name": "EnduraSeal Deep Groove Bearing", "category": "Bearings & Bushings", "price": 25.75, "description": "Double-shielded ball bearing, high-temp lithium grease, ISO Class 6 precision.", "life_cycle_status": "Active"},
+  {"id": 17, "name": "ProMotion Ball Bearing Set", "category": "Bearings & Bushings", "price": 28.40, "description": "Deep groove bearing with high-viscosity grease and rubber seals for extended service life.", "life_cycle_status": "Active"},
+  {"id": 18, "name": "ThermoLock Bearing Assembly", "category": "Bearings & Bushings", "price": 31.90, "description": "High-temp resistant, double-sealed bearing set with carbon steel races.", "life_cycle_status": "Active"},
+  {"id": 19, "name": "MaxSpin Precision Bearing Kit", "category": "Bearings & Bushings", "price": 29.60, "description": "ABEC-7 rated deep groove bearing set, dust-proof, sealed on both sides.", "life_cycle_status": "Active"},
+  {"id": 20, "name": "HeatGuard Ball Bearing Set", "category": "Bearings & Bushings", "price": 34.00, "description": "Double-sealed, high-load bearing set lubricated with synthetic grease for continuous operation up to 200°C.", "life_cycle_status": "Active"},
+    {"id": 21, "name": "FlexBond Gasket Sealant", "category": "Seals & Gaskets", "price": 12.50, "description": "High-elasticity, solvent-free silicone compound, temperature resistant up to 250°C.", "life_cycle_status": "Active"},
+  {"id": 22, "name": "AeroSeal RTV Compound", "category": "Seals & Gaskets", "price": 13.75, "description": "High-flex, low-odor sealant suitable for aluminum flanges and rubber joints.", "life_cycle_status": "Active"},
+  {"id": 23, "name": "ProTight Gasket Maker", "category": "Seals & Gaskets", "price": 14.20, "description": "Solventless hybrid polymer sealant, cures rapidly, offers chemical resistance.", "life_cycle_status": "Active"},
+  {"id": 24, "name": "SealSure Elastic Adhesive", "category": "Seals & Gaskets", "price": 15.10, "description": "Non-corrosive compound for mechanical seals, flexible even after thermal cycling.", "life_cycle_status": "Active"},
+  {"id": 25, "name": "ThermaLock High Elastic Sealant", "category": "Seals & Gaskets", "price": 16.60, "description": "Heat-resistant, solvent-free gasket sealant ideal for turbine housings and compressors.", "life_cycle_status": "Active"},
+    {"id": 26, "name": "VectorMax VFD 5.5kW", "category": "Control & Automation Components", "price": 380.00, "description": "Compact VFD with PID tuning, EMC filter, and sensorless vector control.", "life_cycle_status": "Active"},
+  {"id": 27, "name": "SmartDrive VFD 11kW", "category": "Control & Automation Components", "price": 415.50, "description": "Advanced vector drive with dynamic torque control and built-in braking chopper.", "life_cycle_status": "Active"},
+  {"id": 28, "name": "EcoTune Variable Frequency Drive", "category": "Control & Automation Components", "price": 398.25, "description": "Energy-efficient VFD, 7.5kW, PID auto-tuning, multi-language LCD interface.", "life_cycle_status": "Active"},
+  {"id": 29, "name": "AutoSync Frequency Controller", "category": "Control & Automation Components", "price": 405.00, "description": "Microprocessor-based VFD with overload protection and harmonic suppression filter.", "life_cycle_status": "Active"},
+  {"id": 30, "name": "DriveLogic 9kW Vector Controller", "category": "Control & Automation Components", "price": 430.75, "description": "Industrial-grade drive with PID loop tuning, integrated EMC compliance, and Modbus support.", "life_cycle_status": "Active"}
 ]
 
 
@@ -1528,6 +1558,7 @@ def get_partsapi():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
