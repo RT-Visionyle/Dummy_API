@@ -779,7 +779,37 @@ Products_FiveHundred = [
   {"id": 497, "Part-Number": "ST-112934", "category": "Regulator", "description": "Cryogenic fluid pressure regulator", "life_cycle_status": "Active"},
   {"id": 498, "Part-Number": "EN-556934", "category": "Seal", "description": "Bearing isolator seal", "life_cycle_status": "Active"},
   {"id": 499, "Part-Number": "OP-998934", "category": "Actuator", "description": "Cushioned cylinder adjustable", "life_cycle_status": "Active"},
-  {"id": 500, "Part-Number": "GL-998967", "category": "Compressor", "description": "Propylene compressor petrochemical", "life_cycle_status": "Active"}
+  {"id": 500, "Part-Number": "GL-998967", "category": "Compressor", "description": "Propylene compressor petrochemical", "life_cycle_status": "Active"},
+    {"id": 1, "Part-Number": "FH-100001", "category": "Fasteners & Hardware", "description": "Titanium hex head bolt, corrosion-resistant, fine thread, 25mm length", "life_cycle_status": "Active"},
+{"id": 2, "Part-Number": "FH-100002", "category": "Fasteners & Hardware", "description": "Stainless steel locking nut, self-sealing with nylon insert", "life_cycle_status": "Active"},
+{"id": 3, "Part-Number": "FH-100003", "category": "Fasteners & Hardware", "description": "Carbon steel washer, zinc-plated, 3mm thickness", "life_cycle_status": "Active"},
+{"id": 4, "Part-Number": "FH-100004", "category": "Fasteners & Hardware", "description": "High-tensile stud bolt with double-ended threading", "life_cycle_status": "Active"},
+{"id": 5, "Part-Number": "FH-100005", "category": "Fasteners & Hardware", "description": "Flat-head machine screw, anodized aluminum, metric M5", "life_cycle_status": "Active"},
+{"id": 6, "Part-Number": "FH-100006", "category": "Fasteners & Hardware", "description": "Brass knurled insert for plastic housing, heat-set type", "life_cycle_status": "Active"},
+{"id": 7, "Part-Number": "FH-100007", "category": "Fasteners & Hardware", "description": "Quick-release latch assembly, stainless steel body", "life_cycle_status": "Active"},
+{"id": 8, "Part-Number": "FH-100008", "category": "Fasteners & Hardware", "description": "Adjustable clamp band, high torque, marine-grade steel", "life_cycle_status": "Active"},
+{"id": 9, "Part-Number": "FH-100009", "category": "Fasteners & Hardware", "description": "Socket head cap screw with black oxide coating", "life_cycle_status": "Active"},
+{"id": 10, "Part-Number": "FH-100010", "category": "Fasteners & Hardware", "description": "Wing nut, die-cast zinc alloy, thumb-operated", "life_cycle_status": "Active"},
+{"id": 11, "Part-Number": "FH-100011", "category": "Fasteners & Hardware", "description": "Steel anchor bolt, concrete expansion type", "life_cycle_status": "Active"},
+{"id": 12, "Part-Number": "FH-100012", "category": "Fasteners & Hardware", "description": "Captive screw, slotted head, stainless steel", "life_cycle_status": "Active"},
+{"id": 13, "Part-Number": "FH-100013", "category": "Fasteners & Hardware", "description": "Rivet nut, aluminum body with flanged head", "life_cycle_status": "Active"},
+{"id": 14, "Part-Number": "FH-100014", "category": "Fasteners & Hardware", "description": "Spring washer, high carbon steel, phosphate finish", "life_cycle_status": "Active"},
+{"id": 15, "Part-Number": "FH-100015", "category": "Fasteners & Hardware", "description": "U-bolt, galvanized steel with locking plates", "life_cycle_status": "Active"},
+    {"id": 16, "Part-Number": "FS-200001", "category": "Filters & Strainers", "description": "High-efficiency HEPA filter, pleated media, MERV 16, antimicrobial treated", "life_cycle_status": "Active"},
+{"id": 17, "Part-Number": "FS-200002", "category": "Filters & Strainers", "description": "Mesh strainer, stainless steel, 50-micron filtration rating", "life_cycle_status": "Active"},
+{"id": 18, "Part-Number": "FS-200003", "category": "Filters & Strainers", "description": "Cartridge filter, activated carbon core with double O-ring seal", "life_cycle_status": "Active"},
+{"id": 19, "Part-Number": "FS-200004", "category": "Filters & Strainers", "description": "Oil mist eliminator with aluminum housing and replaceable core", "life_cycle_status": "Active"},
+{"id": 20, "Part-Number": "FS-200005", "category": "Filters & Strainers", "description": "Hydraulic suction filter with bypass valve, 25-micron element", "life_cycle_status": "Active"},
+{"id": 21, "Part-Number": "FS-200006", "category": "Filters & Strainers", "description": "Inline fuel filter, glass body with stainless steel mesh", "life_cycle_status": "Active"},
+{"id": 22, "Part-Number": "FS-200007", "category": "Filters & Strainers", "description": "Air intake pre-cleaner with cyclonic dust separation system", "life_cycle_status": "Active"},
+{"id": 23, "Part-Number": "FS-200008", "category": "Filters & Strainers", "description": "Panel filter, galvanized frame, multi-layer synthetic media", "life_cycle_status": "Active"},
+{"id": 24, "Part-Number": "FS-200009", "category": "Filters & Strainers", "description": "Y-strainer, bronze body, 100-mesh stainless insert", "life_cycle_status": "Active"},
+{"id": 25, "Part-Number": "FS-200010", "category": "Filters & Strainers", "description": "Bag filter housing, dual stage with differential pressure gauge", "life_cycle_status": "Active"},
+{"id": 26, "Part-Number": "FS-200011", "category": "Filters & Strainers", "description": "Vacuum filter, polycarbonate bowl, 5-micron particulate media", "life_cycle_status": "Active"},
+{"id": 27, "Part-Number": "FS-200012", "category": "Filters & Strainers", "description": "Gas coalescing filter, aluminum alloy shell with drain port", "life_cycle_status": "Active"},
+{"id": 28, "Part-Number": "FS-200013", "category": "Filters & Strainers", "description": "Desiccant dryer filter, color-change indicator beads", "life_cycle_status": "Active"},
+{"id": 29, "Part-Number": "FS-200014", "category": "Filters & Strainers", "description": "Inline water filter, stainless steel mesh, quick-connect ends", "life_cycle_status": "Active"},
+{"id": 30, "Part-Number": "FS-200015", "category": "Filters & Strainers", "description": "Pleated polymer membrane filter, hydrophobic surface", "life_cycle_status": "Active"}
 ]
 
 Products_ThreeHundred = [
@@ -1558,6 +1588,7 @@ def get_partsapi():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
