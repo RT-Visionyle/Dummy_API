@@ -809,7 +809,16 @@ Products_FiveHundred = [
 {"id": 27, "Part-Number": "FS-200012", "category": "Filters & Strainers", "description": "Gas coalescing filter, aluminum alloy shell with drain port", "life_cycle_status": "Active"},
 {"id": 28, "Part-Number": "FS-200013", "category": "Filters & Strainers", "description": "Desiccant dryer filter, color-change indicator beads", "life_cycle_status": "Active"},
 {"id": 29, "Part-Number": "FS-200014", "category": "Filters & Strainers", "description": "Inline water filter, stainless steel mesh, quick-connect ends", "life_cycle_status": "Active"},
-{"id": 30, "Part-Number": "FS-200015", "category": "Filters & Strainers", "description": "Pleated polymer membrane filter, hydrophobic surface", "life_cycle_status": "Active"}
+{"id": 30, "Part-Number": "FS-200015", "category": "Filters & Strainers", "description": "Pleated polymer membrane filter, hydrophobic surface", "life_cycle_status": "Active"},
+    {"id": 23, "Part-Number": "FS-200112", "category": "Filters & Strainers", "description": "Air intake pre-filter with cyclonic debris separation", "life_cycle_status": "Active"},
+  
+  {"id": 24, "Part-Number": "FS-200089", "category": "Filters & Strainers", "description": "Pre-cleaner for engine air systems using cyclone separation", "life_cycle_status": "Active"},
+  
+  {"id": 25, "Part-Number": "FS-150034", "category": "Filters & Strainers", "description": "Heavy-duty air filter housing with dust reduction features", "life_cycle_status": "Active"},
+  
+  {"id": 26, "Part-Number": "FS-200321", "category": "Filters & Strainers", "description": "Engine air pre-cleaner with multi-stage dust separation", "life_cycle_status": "Active"},
+  
+  {"id": 27, "Part-Number": "FS-200198", "category": "Filters & Strainers", "description": "Cyclonic air cleaner for reducing particulate intake", "life_cycle_status": "Active"}
 ]
 
 Products_ThreeHundred = [
@@ -1588,6 +1597,7 @@ def get_partsapi():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
