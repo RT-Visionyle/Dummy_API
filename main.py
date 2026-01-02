@@ -1526,6 +1526,69 @@ Products_FourHundred = [
   {"Part-Number": "TEL-10300-OH", "Part-Name": "Speaker", "description": "PA speaker system.", "life_cycle_status": "Active"}
 ]
 
+Products_Constraint = [
+    { "product_number": "APT-HS-001", "name": "FlexCore Hose", "category": "Hoses", "price": 26.5, "description": "Flexible industrial hose with 2 cm inner diameter, supplied in 1 meter length, suitable for operating pressures up to 10 kg/m².", "life_cycle_status": "Active" },
+    { "product_number": "APT-HS-002", "name": "FlexCore Plus Hose", "category": "Hoses", "price": 29.8, "description": "Reinforced hose pipe featuring 2 cm bore diameter and 1.5 m length, rated for pressure handling up to 12 kg per square meter.", "life_cycle_status": "Active" },
+    { "product_number": "APT-HS-003", "name": "FlexCore Compact Hose", "category": "Hoses", "price": 22.1, "description": "Compact flexible hose with 2 cm internal diameter, 0.8 meter length, pressure tolerance approximately 11 kg/m2.", "life_cycle_status": "Active" },
+    { "product_number": "APT-HS-004", "name": "FlexCore High-Pressure Hose", "category": "Hoses", "price": 34.6, "description": "Heavy-duty hose pipe, 2 cm ID, standard 1 m length, engineered for pressures up to 14 kg/m².", "life_cycle_status": "Active" },
+    { "product_number": "APT-HS-005", "name": "FlexCore Wide Bore Hose", "category": "Hoses", "price": 31.2, "description": "Wide bore industrial hose with 2.5 cm internal diameter and 1.2 m length, suitable for pressure ratings up to 12 kg/m².", "life_cycle_status": "Active" },
+    { "product_number": "APT-PIP-006", "name": "Carbon Steel Pipe", "category": "Pipes", "price": 48.9, "description": "Seamless carbon steel pipe with 2 inch nominal diameter, wall thickness 3 mm, supplied in 6 meter lengths.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PIP-007", "name": "Stainless Steel Pipe", "category": "Pipes", "price": 62.4, "description": "Stainless steel process pipe, 1.5 inch diameter, schedule 40, rated for high-temperature oil and gas applications.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PIP-008", "name": "Alloy Steel Pipe", "category": "Pipes", "price": 71.0, "description": "Alloy steel pipe with 3 inch diameter, 5 mm wall thickness, designed for high-pressure hydrocarbon transport.", "life_cycle_status": "Active" },
+    { "product_number": "APT-VLV-009", "name": "Gate Valve Class 150", "category": "Valves", "price": 112.0, "description": "Cast steel gate valve, 2 inch size, ANSI Class 150, flanged ends, suitable for crude oil service.", "life_cycle_status": "Active" },
+    { "product_number": "APT-VLV-010", "name": "Ball Valve Class 300", "category": "Valves", "price": 148.5, "description": "Forged steel ball valve, 1 inch bore, Class 300 pressure rating, full port design.", "life_cycle_status": "Active" },
+    { "product_number": "APT-VLV-011", "name": "Globe Valve", "category": "Valves", "price": 136.2, "description": "Globe valve with 1.5 inch nominal diameter, rated for throttling applications up to 25 bar.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FIT-012", "name": "Pipe Elbow 90 Degree", "category": "Fittings", "price": 14.6, "description": "Carbon steel elbow fitting, 2 inch diameter, 90 degree angle, suitable for welded pipe joints.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FIT-013", "name": "Pipe Tee", "category": "Fittings", "price": 18.2, "description": "Equal tee pipe fitting with 1.5 inch outlets, seamless construction for oil and gas pipelines.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FIT-014", "name": "Reducer Coupling", "category": "Fittings", "price": 21.7, "description": "Reducer coupling fitting transitioning from 3 inch to 2 inch diameter pipes.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FLG-015", "name": "Weld Neck Flange", "category": "Flanges", "price": 44.3, "description": "Weld neck flange, 2 inch size, ANSI Class 150, raised face, carbon steel construction.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FLG-016", "name": "Slip-On Flange", "category": "Flanges", "price": 39.8, "description": "Slip-on flange, 1.5 inch diameter, Class 300 rating, suitable for moderate pressure systems.", "life_cycle_status": "Active" },
+    { "product_number": "APT-GSK-017", "name": "Spiral Wound Gasket", "category": "Gaskets", "price": 9.6, "description": "Spiral wound gasket, 2 inch size, stainless steel with graphite filler, rated for high-temperature sealing.", "life_cycle_status": "Active" },
+    { "product_number": "APT-GSK-018", "name": "Ring Type Joint Gasket", "category": "Gaskets", "price": 12.4, "description": "RTJ gasket suitable for Class 600 flanges, oval profile, carbon steel material.", "life_cycle_status": "Active" },
+    { "product_number": "APT-SEAL-019", "name": "Mechanical Seal", "category": "Seals", "price": 78.9, "description": "Single spring mechanical seal with 25 mm shaft size, designed for centrifugal pumps handling hydrocarbons.", "life_cycle_status": "Active" },
+    { "product_number": "APT-SEAL-020", "name": "Oil Seal", "category": "Seals", "price": 6.5, "description": "Nitrile rubber oil seal with 40 mm outer diameter, suitable for rotating equipment.", "life_cycle_status": "Active" },
+    { "product_number": "APT-INS-021", "name": "Pressure Gauge", "category": "Instrumentation", "price": 32.7, "description": "Analog pressure gauge with 0–25 bar range, 100 mm dial size, bottom connection.", "life_cycle_status": "Active" },
+    { "product_number": "APT-INS-022", "name": "Temperature Gauge", "category": "Instrumentation", "price": 28.4, "description": "Bimetallic temperature gauge measuring from 0 to 300°C, 150 mm stem length.", "life_cycle_status": "Active" },
+    { "product_number": "APT-INS-023", "name": "Flow Meter", "category": "Instrumentation", "price": 184.0, "description": "Turbine flow meter, 2 inch line size, suitable for liquid hydrocarbons with flow rates up to 50 m3/hr.", "life_cycle_status": "Active" },
+    { "product_number": "APT-BLT-024", "name": "Hex Bolt", "category": "Fasteners", "price": 1.2, "description": "High tensile hex bolt, M16 size, 100 mm length, grade 8.8, zinc plated.", "life_cycle_status": "Active" },
+    { "product_number": "APT-NUT-025", "name": "Hex Nut", "category": "Fasteners", "price": 0.6, "description": "Carbon steel hex nut, M16 thread size, suitable for structural bolting.", "life_cycle_status": "Active" },
+    { "product_number": "APT-BRG-026", "name": "Ball Bearing", "category": "Bearings", "price": 22.3, "description": "Deep groove ball bearing with 25 mm bore diameter, sealed type for industrial machinery.", "life_cycle_status": "Active" },
+    { "product_number": "APT-BRG-027", "name": "Roller Bearing", "category": "Bearings", "price": 34.9, "description": "Cylindrical roller bearing designed for high radial loads in pump assemblies.", "life_cycle_status": "Active" },
+    { "product_number": "APT-MTR-028", "name": "Electric Motor", "category": "Motors", "price": 420.0, "description": "Three-phase induction motor, 5 HP power rating, 1440 RPM speed, suitable for oilfield equipment.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PMP-029", "name": "Centrifugal Pump", "category": "Pumps", "price": 780.0, "description": "End suction centrifugal pump delivering 20 m3/hr at 30 m head, cast iron casing.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PMP-030", "name": "Horizontal Multistage Pump", "category": "Pumps", "price": 1120.0, "description": "Horizontal multistage centrifugal pump delivering 40 m3/hr at 60 m head, designed for refinery process fluids.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PMP-031", "name": "Vertical Sump Pump", "category": "Pumps", "price": 980.0, "description": "Vertical sump pump with 3 m immersion depth, capable of handling corrosive liquids at temperatures up to 90°C.", "life_cycle_status": "Active" },
+    { "product_number": "APT-VLV-032", "name": "Check Valve Swing Type", "category": "Valves", "price": 96.5, "description": "Swing type check valve, 2 inch size, Class 300 pressure rating, flanged ends.", "life_cycle_status": "Active" },
+    { "product_number": "APT-VLV-033", "name": "Needle Valve", "category": "Valves", "price": 88.4, "description": "Precision needle valve, ½ inch connections, suitable for pressure regulation up to 400 bar.", "life_cycle_status": "Active" },
+    { "product_number": "APT-VLV-034", "name": "Plug Valve", "category": "Valves", "price": 142.7, "description": "Lubricated plug valve, 3 inch bore, suitable for viscous hydrocarbon service.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PIP-035", "name": "Line Pipe API 5L", "category": "Pipes", "price": 85.0, "description": "API 5L Grade B line pipe, 6 inch diameter, supplied in 12 m random lengths.", "life_cycle_status": "Active" },
+    { "product_number": "APT-PIP-036", "name": "Process Tubing", "category": "Pipes", "price": 54.3, "description": "Stainless steel tubing, 12 mm outer diameter, 1.5 mm wall thickness, annealed finish.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FIT-037", "name": "Union Fitting", "category": "Fittings", "price": 16.9, "description": "Forged steel union fitting, 1 inch size, socket weld ends, suitable for high-pressure lines.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FIT-038", "name": "Compression Fitting", "category": "Fittings", "price": 11.2, "description": "Double ferrule compression fitting for 12 mm tubing, stainless steel construction.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FLG-039", "name": "Blind Flange", "category": "Flanges", "price": 47.5, "description": "Blind flange, 2 inch nominal size, ANSI Class 300, carbon steel.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FLG-040", "name": "Lap Joint Flange", "category": "Flanges", "price": 42.6, "description": "Lap joint flange, 3 inch size, Class 150 rating, suitable for frequent dismantling.", "life_cycle_status": "Active" },
+    { "product_number": "APT-GSK-041", "name": "Non-Asbestos Gasket", "category": "Gaskets", "price": 6.8, "description": "Compressed fiber gasket, 2 inch size, suitable for oil, gas, and steam service.", "life_cycle_status": "Active" },
+    { "product_number": "APT-GSK-042", "name": "PTFE Envelope Gasket", "category": "Gaskets", "price": 14.3, "description": "PTFE envelope gasket with soft filler, designed for corrosive chemical service.", "life_cycle_status": "Active" },
+    { "product_number": "APT-SEAL-043", "name": "Cartridge Mechanical Seal", "category": "Seals", "price": 132.0, "description": "Cartridge-type mechanical seal for pumps with 40 mm shaft diameter.", "life_cycle_status": "Active" },
+    { "product_number": "APT-SEAL-044", "name": "O-Ring Seal", "category": "Seals", "price": 1.9, "description": "Viton O-ring with 50 mm internal diameter, suitable for high-temperature oil service.", "life_cycle_status": "Active" },
+    { "product_number": "APT-INS-045", "name": "Pressure Transmitter", "category": "Instrumentation", "price": 245.0, "description": "Smart pressure transmitter with range 0–100 bar, 4–20 mA output, HART protocol.", "life_cycle_status": "Active" },
+    { "product_number": "APT-INS-046", "name": "Level Switch", "category": "Instrumentation", "price": 164.5, "description": "Float type level switch for storage tanks, stainless steel wetted parts.", "life_cycle_status": "Active" },
+    { "product_number": "APT-INS-047", "name": "Gas Detector", "category": "Instrumentation", "price": 390.0, "description": "Fixed gas detector for methane, detection range up to 100% LEL.", "life_cycle_status": "Active" },
+    { "product_number": "APT-BLT-048", "name": "Stud Bolt", "category": "Fasteners", "price": 2.4, "description": "Alloy steel stud bolt, M20 size, 180 mm length, ASTM A193 Grade B7.", "life_cycle_status": "Active" },
+    { "product_number": "APT-NUT-049", "name": "Heavy Hex Nut", "category": "Fasteners", "price": 1.1, "description": "Heavy hex nut, M20 thread, suitable for high-pressure flange connections.", "life_cycle_status": "Active" },
+    { "product_number": "APT-BRG-050", "name": "Thrust Bearing", "category": "Bearings", "price": 58.6, "description": "Thrust ball bearing designed for axial load handling in vertical pumps.", "life_cycle_status": "Active" },
+    { "product_number": "APT-MTR-051", "name": "Explosion Proof Motor", "category": "Motors", "price": 860.0, "description": "Flameproof electric motor, 7.5 HP rating, suitable for hazardous zone oil and gas installations.", "life_cycle_status": "Active" },
+    { "product_number": "APT-ELC-052", "name": "Junction Box", "category": "Electrical", "price": 72.4, "description": "Explosion-proof junction box, aluminum enclosure, IP66 rated.", "life_cycle_status": "Active" },
+    { "product_number": "APT-ELC-053", "name": "Cable Gland", "category": "Electrical", "price": 8.3, "description": "Brass cable gland, M20 size, suitable for armored cables.", "life_cycle_status": "Active" },
+    { "product_number": "APT-STR-054", "name": "Y-Type Strainer", "category": "Strainers", "price": 74.9, "description": "Y-type pipeline strainer, 2 inch size, stainless steel screen.", "life_cycle_status": "Active" },
+    { "product_number": "APT-HX-055", "name": "Shell and Tube Heat Exchanger", "category": "Heat Exchangers", "price": 2450.0, "description": "Shell and tube heat exchanger designed for oil cooling, heat transfer area 25 m².", "life_cycle_status": "Active" },
+    { "product_number": "APT-TNK-056", "name": "Storage Tank Nozzle", "category": "Tank Accessories", "price": 126.0, "description": "Welded tank nozzle, 4 inch diameter, carbon steel construction.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FLT-057", "name": "Oil Filter Element", "category": "Filters", "price": 42.0, "description": "Replaceable oil filter cartridge rated for 10 micron filtration.", "life_cycle_status": "Active" },
+    { "product_number": "APT-FLT-058", "name": "Gas Coalescer Filter", "category": "Filters", "price": 118.0, "description": "Gas coalescer filter element designed to remove liquid aerosols from natural gas streams.", "life_cycle_status": "Active" },
+    { "product_number": "APT-CPL-059", "name": "Flexible Coupling", "category": "Couplings", "price": 64.7, "description": "Elastomeric flexible coupling suitable for 30 mm shaft diameter motors.", "life_cycle_status": "Active" },
+    { "product_number": "APT-LUB-060", "name": "Automatic Lubricator", "category": "Lubrication", "price": 52.5, "description": "Single-point automatic lubricator with 120 ml grease capacity.", "life_cycle_status": "Active" }
+]
+
 
 @app.route("/")
 def home():
@@ -1595,8 +1658,25 @@ def get_partsapi():
 
     return jsonify(Products_FourHundred), 200
 
+@app.route("/parts", methods=["GET"])
+def get_parts():
+    api_key = request.headers.get("x-api-key")
+    if not api_key:
+        return jsonify({"error": "API key missing"}), 401
+
+    if api_key != VALID_API_KEY:
+        return jsonify({"error": "Invalid API key"}), 401
+
+    category = request.args.get("category")
+    if category:
+        filtered = [p for p in Products_Constraint if p["category"].lower() == category.lower()]
+        return jsonify(filtered), 200
+
+    return jsonify(Products_Constraint), 200
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
