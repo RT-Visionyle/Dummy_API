@@ -1586,7 +1586,8 @@ Products_Constraint = [
     { "product_number": "APT-FLT-057", "name": "Oil Filter Element", "category": "Filters", "price": 42.0, "description": "Replaceable oil filter cartridge rated for 10 micron filtration.", "life_cycle_status": "Active" },
     { "product_number": "APT-FLT-058", "name": "Gas Coalescer Filter", "category": "Filters", "price": 118.0, "description": "Gas coalescer filter element designed to remove liquid aerosols from natural gas streams.", "life_cycle_status": "Active" },
     { "product_number": "APT-CPL-059", "name": "Flexible Coupling", "category": "Couplings", "price": 64.7, "description": "Elastomeric flexible coupling suitable for 30 mm shaft diameter motors.", "life_cycle_status": "Active" },
-    { "product_number": "APT-LUB-060", "name": "Automatic Lubricator", "category": "Lubrication", "price": 52.5, "description": "Single-point automatic lubricator with 120 ml grease capacity.", "life_cycle_status": "Active" }
+    { "product_number": "APT-LUB-060", "name": "Automatic Lubricator", "category": "Lubrication", "price": 52.5, "description": "Single-point automatic lubricator with 120 ml grease capacity.", "life_cycle_status": "Active" },
+    { "product_number": "HY-45211", "name": "FlexCore Vertex Hose", "category": "Hoses", "price": 59.5, "description": "Flexible industrial hose with 2 cm inner diameter, supplied in 1 meter length, suitable for operating pressures up to 10 kg/m²", "life_cycle_status": "Obsolete" }
 ]
 
 
@@ -1676,6 +1677,7 @@ def get_parts():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
