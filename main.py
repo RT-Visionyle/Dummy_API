@@ -1587,7 +1587,23 @@ Products_Constraint = [
     { "product_number": "APT-FLT-058", "name": "Gas Coalescer Filter", "category": "Filters", "price": 118.0, "description": "Gas coalescer filter element designed to remove liquid aerosols from natural gas streams.", "life_cycle_status": "Active" },
     { "product_number": "APT-CPL-059", "name": "Flexible Coupling", "category": "Couplings", "price": 64.7, "description": "Elastomeric flexible coupling suitable for 30 mm shaft diameter motors.", "life_cycle_status": "Active" },
     { "product_number": "APT-LUB-060", "name": "Automatic Lubricator", "category": "Lubrication", "price": 52.5, "description": "Single-point automatic lubricator with 120 ml grease capacity.", "life_cycle_status": "Active" },
-    { "product_number": "HY-45211", "name": "FlexCore Vertex Hose", "category": "Hoses", "price": 59.5, "description": "Flexible industrial hose with 2 cm inner diameter, supplied in 1 meter length, suitable for operating pressures up to 10 kg/m²", "life_cycle_status": "Obsolete" }
+    { "product_number": "HY-45211", "name": "FlexCore Vertex Hose", "category": "Hoses", "price": 59.5, "description": "Flexible industrial hose with 2 cm inner diameter, supplied in 1 meter length, suitable for operating pressures up to 10 kg/m²", "life_cycle_status": "Obsolete" },
+    {"product_number":"APT-TNK-101","name":"ChemSafe Storage Tank","category":"Chemical Storage Tanks","price":5200.0,"description":"Vertical chemical storage tank with 5000 liter capacity, fabricated from HDPE material, suitable for storing corrosive liquids up to 60°C.","life_cycle_status":"Discontinued"},
+    {"product_number":"APT-TNK-102","name":"ChemSafe Plus Tank","category":"Chemical Storage Tanks","price":6100.0,"description":"Industrial chemical tank offering 6000 L storage volume, constructed using HDPE, designed for operating temperatures up to 70 degrees Celsius.","life_cycle_status":"Active"},
+    {"product_number":"APT-TNK-103","name":"ChemSafe Compact Tank","category":"Chemical Storage Tanks","price":4300.0,"description":"Compact vertical tank with 4500 liter capacity, polyethylene construction, recommended for chemical storage below 55°C.","life_cycle_status":"Active"},
+    {"product_number":"APT-TNK-104","name":"ChemSafe Steel Tank","category":"Chemical Storage Tanks","price":7800.0,"description":"Carbon steel chemical storage tank with 5000 L capacity, epoxy-coated interior, suitable for industrial solvents and hydrocarbons.","life_cycle_status":"Active"},
+    {"product_number":"APT-TNK-105","name":"ChemSafe HighTemp Tank","category":"Chemical Storage Tanks","price":8200.0,"description":"Reinforced chemical storage tank with 5000 liters capacity, FRP construction, capable of handling temperatures up to 90°C.","life_cycle_status":"Active"},
+    {"product_number":"APT-TNK-106","name":"ChemSafe Large Volume Tank","category":"Chemical Storage Tanks","price":9800.0,"description":"Large capacity storage tank with 8000 liter volume, HDPE material, designed for aggressive chemical media.","life_cycle_status":"Active"},
+    {"product_number":"APT-TNK-107","name":"ChemSafe Economy Tank","category":"Chemical Storage Tanks","price":3900.0,"description":"Economy-grade chemical tank providing 5000 L capacity, polyethylene body, suitable for mild chemical applications.","life_cycle_status":"Active"},
+    {"product_number":"APT-TNK-108","name":"ChemSafe Industrial Tank","category":"Chemical Storage Tanks","price":7400.0,"description":"Industrial vertical tank with 5200 liter storage capacity, FRP lining, designed for corrosive chemical storage environments.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-201","name":"PowerDrive Induction Motor","category":"Electric Motors","price":850.0,"description":"Three-phase induction motor rated at 5 HP, operating speed 1440 RPM, suitable for continuous industrial duty.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-202","name":"PowerDrive Plus Motor","category":"Electric Motors","price":1020.0,"description":"Industrial electric motor delivering 7.5 HP output, running at 1440 RPM, designed for heavy-duty applications.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-203","name":"PowerDrive Compact Motor","category":"Electric Motors","price":620.0,"description":"Compact three-phase motor with 3 HP power rating and nominal speed of 1440 RPM.","life_cycle_status":"Obsolete"},
+    {"product_number":"APT-MTR-204","name":"PowerDrive High-Speed Motor","category":"Electric Motors","price":980.0,"description":"High-speed induction motor rated at 5 HP with operating speed of 2880 RPM.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-205","name":"PowerDrive Explosion-Proof Motor","category":"Electric Motors","price":1460.0,"description":"Flameproof electric motor with 5 HP rating, suitable for hazardous zone oil and gas installations.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-206","name":"PowerDrive High-Efficiency Motor","category":"Electric Motors","price":1120.0,"description":"Energy-efficient induction motor rated at 5 HP, IE3 efficiency class, designed for continuous operation.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-207","name":"PowerDrive Heavy Torque Motor","category":"Electric Motors","price":1250.0,"description":"Industrial motor with 5 HP output and enhanced starting torque, suitable for pump and compressor applications.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-208","name":"PowerDrive Oversized Motor","category":"Electric Motors","price":1680.0,"description":"High-capacity motor delivering 10 HP power output, designed for heavy industrial machinery.","life_cycle_status":"Active"}
 ]
 
 
@@ -1677,6 +1693,7 @@ def get_parts():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
