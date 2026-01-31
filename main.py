@@ -1596,10 +1596,10 @@ Products_Constraint = [
     {"product_number":"APT-TNK-106","name":"ChemSafe Large Volume Tank","category":"Chemical Storage Tanks", "manufacturer": "DeeDeepya Solutions","price":9800.0,"description":"Chemical tank with 8000 liter capacity, compatible with acids and alkalis, wall thickness 9.5 mm, black color finish.","life_cycle_status":"Active"},
     {"product_number":"APT-TNK-107","name":"ChemSafe Economy Tank","category":"Chemical Storage Tanks", "manufacturer": "DeeDeepya Solutions","price":3900.0,"description":"Chemical storage tank with 4800 L capacity, compatible with mild chemicals, wall thickness 6.5 mm, blue color exterior.","life_cycle_status":"Active"},
     {"product_number":"APT-TNK-108","name":"ChemSafe Industrial Tank","category":"Chemical Storage Tanks", "manufacturer": "DeeDeepya Solutions","price":7400.0,"description":"Chemical storage tank with 5200 liter capacity, compatible with acids and alkalis, wall thickness 8 mm, black color coating.","life_cycle_status":"Active"},
-    {"product_number":"APT-MTR-201","name":"PowerDrive Induction Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":850.0,"description":"Electric motor rated at 5 kW power, shaft diameter 28 mm, operating voltage 415 V, efficiency class IE2.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-201","name":"PowerDrive Induction Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":850.0,"description":"Electric motor rated at 5 kW power, shaft diameter 24 mm, operating voltage 415 V, efficiency class IE2.","life_cycle_status":"Active"},
     {"product_number":"APT-MTR-202","name":"PowerDrive Plus Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":1020.0,"description":"Electric motor with 7.5 kW power rating, shaft diameter 28 mm, voltage rating 415 V, efficiency class IE3.","life_cycle_status":"Active"},
-    {"product_number":"APT-MTR-203","name":"PowerDrive Compact Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":620.0,"description":"Electric motor rated at 3 kW power, shaft diameter 24 mm, operating voltage 415 V, efficiency class IE2.","life_cycle_status":"Obsolete"},
-    {"product_number":"APT-MTR-204","name":"PowerDrive Standard Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":980.0,"description":"Electric motor rated at 5 kW power, shaft diameter 28 mm, voltage rating 415 V, efficiency class IE2.","life_cycle_status":"Active"},
+    {"product_number":"APT-MTR-203","name":"PowerDrive Compact Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":620.0,"description":"Electric motor rated at 3 kW power, shaft diameter 28 mm, operating voltage 415 V, efficiency class IE2.","life_cycle_status":"Obsolete"},
+    {"product_number":"APT-MTR-204","name":"PowerDrive Standard Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":980.0,"description":"Electric motor rated at 2 kW power, shaft diameter 28 mm, voltage rating 415 V, efficiency class IE2.","life_cycle_status":"Active"},
     {"product_number":"APT-MTR-205","name":"PowerDrive Advanced Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":1460.0,"description":"Electric motor with 5 kW power output, shaft diameter 28 mm, operating voltage 415 V, efficiency class IE3.","life_cycle_status":"Active"},
     {"product_number":"APT-MTR-206","name":"PowerDrive High-Efficiency Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":1120.0,"description":"Electric motor rated at 5 kW power, shaft diameter 28 mm, voltage rating 415 V, efficiency class IE4.","life_cycle_status":"Active"},
     {"product_number":"APT-MTR-207","name":"PowerDrive Variant Motor","category":"Electric Motors", "manufacturer": "DeeDeepya Solutions","price":1250.0,"description":"Electric motor rated at 5 kW power, shaft diameter 30 mm, operating voltage 415 V, efficiency class IE3.","life_cycle_status":"Active"},
@@ -1693,6 +1693,7 @@ def get_parts():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
+
 
 
 
